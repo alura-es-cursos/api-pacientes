@@ -30,8 +30,6 @@
 					</tbody>
 				</table>
 				
-				<span id="error-ajax">Error al buscar los pacientes</span>
-
 				<button id="buscar-paciente" class="boton bto-principal">
 					Buscar Pacientes
 				</button>
@@ -41,9 +39,6 @@
 
 
 		<script>
-			
-			var errorAjax = document.querySelector("#error-ajax");
-			errorAjax.style.visibility = "hidden";
 						
 			function adicionarPacienteEnLaTabla(paciente){
 				var pacienteTr = construirTr(paciente);
